@@ -7,7 +7,8 @@ html, body {
     font-size: 0.93em;
     display: flex;
     background: #e0e0e0;
-    background: url("assets/background.png") repeat;
+    background: url("background.png") repeat;
+    cursor: default;
 }
 
 .main, .private {
@@ -34,19 +35,19 @@ html, body {
     height: 50px;
     padding: 5px;
     color: #f4fafd;
-    background-color: #3498DB;
-    border-bottom: solid 3px #1d6fa6;
+    background-color: #6496C8;
+    border-bottom: solid 3px #3B70A6;
 }
 
 .column-left .user:hover {
     cursor: pointer;
-    border-bottom: solid 1px #1d6fa6;;
-    border-top: solid 2px #1d6fa6;
+    border-bottom: solid 1px #3B70A6;
+    border-top: solid 2px #3B70A6;
 }
 
 .column-left .user:active {
     cursor: pointer;
-    background-color: #2980B9;
+    background-color: #3B70A6;
 }
 
 .column-left .user .avatar{
@@ -62,7 +63,7 @@ html, body {
 
 .column-left .advertisement {
     height: 100px;
-    background-color: #2980B9;
+    background-color: #3B70A6;
 }
 
 .column-right {
@@ -86,7 +87,7 @@ html, body {
     height: 50px;
     width: 50px;
     margin-right: 10px;
-    background-color: #3498DB;
+    background-color: #6496C8;
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
@@ -134,12 +135,12 @@ html, body {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     border: none;
-    background-color: #3498DB;
+    background-color: #6496C8;
 }
 
 .column-right .new-message #message-submit:hover {
 
-    background-color: #2980B9;
+    background-color: #3B70A6;
 }
 
 .column-right .new-message #message-submit:active {
@@ -163,7 +164,7 @@ html, body {
     height: 50px;
     width: 50px;
     margin-right: 10px;
-    background-color: #3498DB;
+    background-color: #6496C8;
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
@@ -215,12 +216,12 @@ html, body {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     border: none;
-    background-color: #3498DB;
+    background-color: #6496C8;
 }
 
 .private .new-message #message-submit:hover {
 
-    background-color: #2980B9;
+    background-color: #3B70A6;
 }
 
 .private .new-message #message-submit:active {
